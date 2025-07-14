@@ -1,0 +1,23 @@
+/* --- Estilos para la página 404 --- */
+
+.notfound-title {
+  font-size: 6rem; 
+  color: #2c3e50;
+  margin: 0;
+  line-height: 1;
+}
+
+.notfound-container h2 {
+  margin-bottom: 1rem;
+}
+
+.notfound-container p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.notfound-container .btn {
+  width: auto;
+  padding: 0.9rem 2rem;
+}

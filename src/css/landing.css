@@ -1,0 +1,38 @@
+/* --- Estilos para el Landing Page --- */
+.welcome-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-container p {
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.welcome-actions {
+  display: flex;
+  gap: 1rem; /* Espacio entre los botones */
+  justify-content: center;
+}
+
+/* Ajuste para que los botones no ocupen todo el ancho */
+.welcome-actions .btn {
+  width: auto;
+  padding: 0.9rem 2.5rem;
+}
+
+/* Estilo secundario para el botón de registro */
+.btn-secondary {
+  background-color: #ffffff;
+  color: #2c3e50;
+  border: 1px solid #2c3e50; /* Borde con el color primario */
+}
+
+.btn-secondary:hover {
+  background-color: #f8f9fa; /* Un leve cambio de color al pasar el ratón */
+  color: #2c3e50;
+}
