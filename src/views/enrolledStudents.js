@@ -1,6 +1,6 @@
 import { getEnrollmentsForCourse, getCourseById } from '../js/course.service.js';
 
-export async function renderEnrolledUsers(courseId) {
+export async function renderEnrolledStudents(courseId) {
     // ADDED: A try...catch block to handle potential errors
     try {
         const [course, enrollments] = await Promise.all([
@@ -8,7 +8,7 @@ export async function renderEnrolledUsers(courseId) {
             getEnrollmentsForCourse(courseId)
         ]);
         
-        let studentListItems = '<li class="no-students">No persones enrolled still.</li>';
+        let studentListItems = '<li class="no-students">No students enrolled yet.</li>';
 
         if (enrollments.length > 0) {
             studentListItems = enrollments.map(enrollment => 

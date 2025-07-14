@@ -14,7 +14,7 @@ export function renderLogin() {
                 <label for="password" class="form-label">Password</label>
                 <input type="password" id="password" class="form-input" name="password" placeholder="Enter your password" autocomplete="current-password" required>
             </div>
-            <button type="submit" class="btn">Login</button>
+            <button type="submit" class="btn">Log in</button>
         </form>
         <section class="form-links">
             <a href="/register" data-link>New user? Register</a>

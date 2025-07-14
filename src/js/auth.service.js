@@ -1,3 +1,4 @@
+
 import apiFetch from './api.service.js';
 
 /**
@@ -33,7 +34,7 @@ export async function login(email, password) {
 /**
  * Registers a new user after validating the provided data.
  * @param {object} userData - Contains name, email, and password.
- * @returns {Promise<object>} The new created user object.
+ * @returns {Promise<object>} The newly created user object.
  */
 export async function register(userData) {
     const { name, email, password } = userData;

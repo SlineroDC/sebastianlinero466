@@ -1,3 +1,4 @@
+// En tu archivo /views/courseForm.js
 
 import { getAllInstructors, getCourseById } from '../js/course.service.js';
 

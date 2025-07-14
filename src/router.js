@@ -2,8 +2,8 @@ import { renderLanding } from "./views/landing.js";
 import { renderLogin } from "./views/login.js";
 import { renderRegister } from "./views/register.js";
 import { renderDashboard } from "./views/dashboard.js";
-import { renderCourseForm } from "./views/eventsForm.js";
-import { renderEnrolledStudents } from "./views/enrolledUsers.js";
+import { renderCourseForm } from "./views/courseForm.js";
+import { renderEnrolledStudents } from "./views/enrolledStudents.js";
 import { render404 } from "./views/404.js";
 
 import { setupLoginForm, setupRegisterForm } from "./js/authHandlers.js";
