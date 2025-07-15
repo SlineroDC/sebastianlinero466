@@ -27,7 +27,7 @@ export function createCourse(courseData) {
  * Fetches a single course by its ID.
  */
 export function getCourseById(courseId) {
-    return apiFetch(`/courses/${courseId}`);
+    return  apiFetch(`/courses/${courseId}`);
 }
 
 /**

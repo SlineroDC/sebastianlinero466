@@ -1,7 +1,15 @@
 /* --- Estilos para el Landing Page --- */
+.welcome-container {
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
 .welcome-title {
   font-size: 2.5rem;
-  color: #2c3e50;
+  color: #6A00FE;
   margin-bottom: 0.5rem;
 }
 
@@ -25,14 +33,30 @@
   padding: 0.9rem 2.5rem;
 }
 
+/* Estilo primario para el botón de inicio de sesión */
+.btn {
+  background-color: #6A00FE;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #9d5ef5;
+}
+
 /* Estilo secundario para el botón de registro */
 .btn-secondary {
-  background-color: #ffffff;
-  color: #2c3e50;
-  border: 1px solid #2c3e50; /* Borde con el color primario */
+  background-color: #fff;
+  color: #6A00FE;
+  border: 1px solid #6A00FE; /* Borde con el color primario */
 }
 
 .btn-secondary:hover {
-  background-color: #f8f9fa; /* Un leve cambio de color al pasar el ratón */
-  color: #2c3e50;
+  background-color: #d1d1d1; /* Un leve cambio de color al pasar el ratón */
+  color: #6A00FE;
 }

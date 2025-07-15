@@ -1,21 +1,21 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Admin User",
       "email": "admin@example.com",
       "password": "admin123",
       "role": "admin"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Gwen Stacy",
       "email": "stacy10@example.com",
       "password": "gwenandpeter",
       "role": "student"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Ryan reynols",
       "email": "ilovedeadpool@example.com",
       "password": "bob123",
@@ -27,16 +27,22 @@
       "email": "peterparker10@email.com",
       "password": "peterandgwen10",
       "role": "student"
+    },
+    {
+      "id": "c5d6"
+    },
+    {
+      "id": "cf46"
     }
   ],
   "instructors": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Dr. Octopus",
       "bio": "Expert in web development and data science."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Dr Dominic Toretto",
       "bio": "Specialist in JavaScript frameworks and modern web technologies."
     }
@@ -47,8 +53,8 @@
       "title": "Python for Beginners",
       "description": "Learn the fundamentals of Python programming, from syntax to data structures, to solve real-world problems.",
       "category": "Programming",
-      "capacity": 20,
-      "instructorId": 1
+      "capacity": 10,
+      "instructorId": 2
     },
     {
       "id": "3443",
@@ -65,28 +71,42 @@
       "category": "Programming",
       "capacity": 20,
       "instructorId": 1
+    },
+    {
+      "id": "22d1"
+    },
+    {
+      "id": "ed50"
     }
   ],
   "enrollments": [
     {
-      "id": 1,
+      "id": "1",
       "courseId": "3443",
       "studentId": 2
     },
     {
-      "id": 2,
+      "id": "2",
       "courseId": "9003",
       "studentId": 2
     },
     {
-      "id": 3,
+      "id": "3",
       "courseId": "96de",
       "studentId": 3
     },
     {
-      "id": 4,
+      "id": "4",
       "courseId": "9003",
       "studentId": "94eb"
+    },
+    {
+      "id": "4f47",
+      "studentId": 3,
+      "courseId": 3443
+    },
+    {
+      "id": "f20d"
     }
-]
+  ]
 }
